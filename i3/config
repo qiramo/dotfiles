@@ -6,7 +6,7 @@ set $mod Mod4
 
 workspace_layout tabbed
 
-bindsym $mod+d exec --no-startup-id dmenu_run -l 5 -fn $font-$font_size
+bindsym $mod+p exec --no-startup-id dmenu_run -l 5 -fn $font-$font_size
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
