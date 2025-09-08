@@ -1,5 +1,3 @@
-vim.keymap.set('n', "<leader>e", vim.cmd.Explore)
-
 vim.keymap.set({ 'n', 'v' }, "<a-j>", "<c-d>zz")
 vim.keymap.set({ 'n', 'v' }, "<a-k>", "<c-u>zz")
 
