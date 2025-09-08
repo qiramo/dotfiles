@@ -1,0 +1,18 @@
+2025/09/08-15:29:15.091 2f8 Reusing MANIFEST /home/qiramo/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/08-15:29:15.091 2f8 Recovering log #42
+2025/09/08-15:29:15.093 2f8 Reusing old log /home/qiramo/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000042.log 
+2025/09/08-15:29:15.371 2f9 Compacting 1@1 + 1@2 files
+2025/09/08-15:29:15.374 2f9 Generated table #45@1: 385 keys, 44958 bytes
+2025/09/08-15:29:15.374 2f9 Compacted 1@1 + 1@2 files => 44958 bytes
+2025/09/08-15:29:15.376 2f9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/08-15:44:47.719 2f9 Level-0 table #47: started
+2025/09/08-15:44:47.732 2f9 Level-0 table #47: 1439777 bytes OK
+2025/09/08-15:44:47.734 2f9 Delete type=2 #40
+2025/09/08-15:44:47.734 2f9 Delete type=2 #43
+2025/09/08-15:44:47.734 2f9 Delete type=0 #42
+2025/09/08-15:49:18.119 2fa Compacting 1@1 + 1@2 files
+2025/09/08-15:49:18.135 2fa Generated table #48@1: 410 keys, 42682 bytes
+2025/09/08-15:49:18.135 2fa Compacted 1@1 + 1@2 files => 42682 bytes
+2025/09/08-15:49:18.137 2fa compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/08-15:49:18.137 2fa Delete type=2 #45
+2025/09/08-15:49:18.138 2fa Delete type=2 #47

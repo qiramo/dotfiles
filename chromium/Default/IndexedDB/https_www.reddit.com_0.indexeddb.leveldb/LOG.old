@@ -1,0 +1,6 @@
+2025/09/06-21:04:26.463 309 Creating DB /home/qiramo/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb since it was missing.
+2025/09/06-21:04:26.470 309 Reusing MANIFEST /home/qiramo/.config/chromium/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/06-21:04:58.471 30a Level-0 table #5: started
+2025/09/06-21:04:58.473 30a Level-0 table #5: 1417 bytes OK
+2025/09/06-21:04:58.474 30a Delete type=0 #3
+2025/09/06-21:04:58.474 30a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

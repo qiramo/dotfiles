@@ -1,0 +1,18 @@
+2025/09/08-16:19:09.725 631 Reusing MANIFEST /home/qiramo/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/08-16:19:09.726 631 Recovering log #338
+2025/09/08-16:19:09.726 631 Reusing old log /home/qiramo/.config/chromium/Default/IndexedDB/chrome-extension_bgnkhhnnamicmpeenaelnjfhikgbkllg_0.indexeddb.leveldb/000338.log 
+2025/09/08-16:19:09.726 631 Delete type=2 #334
+2025/09/08-16:19:09.726 631 Delete type=2 #336
+2025/09/08-16:19:09.726 631 Delete type=2 #335
+2025/09/08-16:19:09.735 631 Level-0 table #345: started
+2025/09/08-16:19:09.736 631 Level-0 table #345: 624 bytes OK
+2025/09/08-16:19:09.737 631 Delete type=0 #338
+2025/09/08-16:19:09.738 631 Manual compaction at level-0 from '\x00*\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at '\x00*\x00\x00\x05' @ 57319 : 1
+2025/09/08-16:19:09.738 631 Compacting 1@0 + 3@1 files
+2025/09/08-16:19:09.760 631 Generated table #346@0: 16328 keys, 2139496 bytes
+2025/09/08-16:19:09.772 631 Generated table #347@0: 531 keys, 2105594 bytes
+2025/09/08-16:19:09.775 631 Generated table #348@0: 342 keys, 536726 bytes
+2025/09/08-16:19:09.775 631 Compacted 1@0 + 3@1 files => 4781816 bytes
+2025/09/08-16:19:09.776 631 compacted to: files[ 0 3 1 0 0 0 0 ]
+2025/09/08-16:19:09.776 631 Delete type=2 #345
+2025/09/08-16:19:09.776 631 Manual compaction at level-0 from '\x00*\x00\x00\x05' @ 57319 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at (end)
