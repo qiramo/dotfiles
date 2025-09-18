@@ -5,6 +5,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = false
 
+vim.opt.wrap = false
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -19,6 +20,7 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.fillchars = "eob: "
+vim.opt.nrformats = "alpha,bin,hex"
 
 vim.g.netrw_hide = 1
 vim.g.netrw_list_hide = "^./$"

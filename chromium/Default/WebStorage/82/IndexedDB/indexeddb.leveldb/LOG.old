@@ -1,6 +1,0 @@
-2025/09/07-03:39:23.130 30a Creating DB /home/qiramo/.config/chromium/Default/WebStorage/82/IndexedDB/indexeddb.leveldb since it was missing.
-2025/09/07-03:39:23.133 30a Reusing MANIFEST /home/qiramo/.config/chromium/Default/WebStorage/82/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2025/09/07-03:45:02.587 30a Level-0 table #5: started
-2025/09/07-03:45:02.590 30a Level-0 table #5: 35725 bytes OK
-2025/09/07-03:45:02.592 30a Delete type=0 #3
-2025/09/07-03:45:02.593 30a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
