@@ -8,7 +8,7 @@ vim.keymap.set({ 'i', 'c', 't' }, "<a-l>", "<right>")
 
 vim.keymap.set('v', ">", ">gv")
 vim.keymap.set('v', "<", "<gv")
-vim.keymap.set('v', 'v', "<c-v>")
+vim.keymap.set('v', "v", "<c-v>")
 
 vim.keymap.set('n', "<tab><tab>", "<c-w>v")
 vim.keymap.set('n', "<tab>h", "<c-w>h")
@@ -24,3 +24,8 @@ vim.keymap.set('n', "qk", "<cmd>cprev<cr>")
 vim.keymap.set('i', "[", "[]<left>")
 vim.keymap.set('i', "{", "{}<left>")
 vim.keymap.set('i', "(", "()<left>")
+
+vim.keymap.set({ 'c', 'n' }, "<esc>", function()
+	vim.opt.hlsearch = false
+	return "<esc>"
+end, { expr = true, silent = true })

@@ -1,9 +1,8 @@
 vim.g.mapleader = " "
 
-vim.cmd("filetype plugin indent off")
-
 require("settings")
 require("mappings")
+require("commands")
 
 local package_path = vim.fn.stdpath("data") .. "/site/"
 local mini_path = package_path .. "pack/deps/start/mini.deps"
@@ -23,13 +22,12 @@ end
 require("mini.deps").setup({ path = { package = package_path } })
 
 -- UI
-require("plugins.gruvbox").setup()
-require("plugins.treesitter").setup()
+require("plugins.theme").setup()
 
 -- Workflow
-require("plugins.mini_files").setup()
-require("plugins.mini_pick").setup()
+require("plugins.oil").setup()
+require("plugins.fzf").setup()
 
 -- Editor
-require("plugins.blink").setup()
 require("plugins.lsp").setup()
+require("plugins.cmp").setup()

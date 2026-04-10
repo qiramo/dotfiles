@@ -15,6 +15,7 @@ M.setup = function()
 		completion = {
 			list = {
 				selection = {
+					preselect = false,
 					auto_insert = false,
 				},
 			},
