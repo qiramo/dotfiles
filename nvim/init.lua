@@ -23,6 +23,7 @@ require("mini.deps").setup({ path = { package = package_path } })
 
 -- UI
 require("plugins.theme").setup()
+require("plugins.line").setup()
 
 -- Workflow
 require("plugins.oil").setup()
