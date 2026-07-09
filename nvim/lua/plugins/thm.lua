@@ -4,10 +4,10 @@ M.setup = function()
 	MiniDeps.add("ellisonleao/gruvbox.nvim")
 
 	require("gruvbox").setup({
-		contrast = "hard",
+		contrast = "",
 	})
 
-	vim.cmd("colorscheme gruvbox")
+	vim.cmd.colorscheme("gruvbox")
 end
 
 return M

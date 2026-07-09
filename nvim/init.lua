@@ -1,3 +1,6 @@
+vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
+
 vim.g.mapleader = " "
 
 require("settings")
@@ -22,11 +25,10 @@ end
 require("mini.deps").setup({ path = { package = package_path } })
 
 -- UI
-require("plugins.theme").setup()
-require("plugins.line").setup()
+require("plugins.thm").setup()
 
 -- Workflow
-require("plugins.oil").setup()
+require("plugins.exp").setup()
 require("plugins.fzf").setup()
 
 -- Editor

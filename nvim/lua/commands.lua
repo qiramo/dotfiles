@@ -1,10 +1,3 @@
-vim.api.nvim_create_autocmd("ColorScheme", {
-	callback = function()
-		vim.api.nvim_set_hl(0, "StatusLine", { bg = "none" })
-		vim.api.nvim_set_hl(0, "StatusLineNC", { bg = "none" })
-	end,
-})
-
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = "*",
 	callback = function()
@@ -30,7 +23,7 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 
 vim.api.nvim_create_autocmd("TextYankPost", {
 	callback = function()
-		vim.highlight.on_yank({ timeout = 1000 })
+		vim.hl.on_yank({ timeout = 1000 })
 	end,
 })
 
@@ -48,10 +41,17 @@ vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(event)
 		local opts = { buffer = event.buf }
 
-		vim.keymap.set('i', "<a-/>", vim.lsp.buf.signature_help, opts)
+		vim.keymap.set('n', "<leader>[", function()
+			vim.diagnostic.jump({ count = -1 })
+		end, opts)
 
-		vim.keymap.set('n', "<leader>[", vim.diagnostic.goto_prev, opts)
-		vim.keymap.set('n', "<leader>]", vim.diagnostic.goto_next, opts)
+		vim.keymap.set('n', "<leader>]", function()
+			vim.diagnostic.jump({ count= 1 })
+		end, opts)
+
+		vim.diagnostic.config { jump = { on_jump = vim.diagnostic.open_float } }
+
+		vim.keymap.set('i', "<a-/>", vim.lsp.buf.signature_help, opts)
 
 		vim.keymap.set('n', "<leader>lh", vim.lsp.buf.hover, opts)
 		vim.keymap.set('n', "<leader>lr", vim.lsp.buf.rename, opts)

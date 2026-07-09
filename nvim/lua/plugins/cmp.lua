@@ -1,7 +1,10 @@
 local M = {}
 
 M.setup = function()
-	MiniDeps.add("saghen/blink.cmp")
+	MiniDeps.add({
+		source = "saghen/blink.cmp",
+		checkout = "v1",
+	})
 
 	require("blink.cmp").setup({
 		fuzzy = {

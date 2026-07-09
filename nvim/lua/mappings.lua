@@ -21,11 +21,11 @@ vim.keymap.set('n', "qq", "<cmd>cclose<cr>")
 vim.keymap.set('n', "qj", "<cmd>cnext<cr>")
 vim.keymap.set('n', "qk", "<cmd>cprev<cr>")
 
+vim.keymap.set('i', "(", "()<left>")
 vim.keymap.set('i', "[", "[]<left>")
 vim.keymap.set('i', "{", "{}<left>")
-vim.keymap.set('i', "(", "()<left>")
 
-vim.keymap.set({ 'c', 'n' }, "<esc>", function()
+vim.keymap.set('n', "<esc>", function()
 	vim.opt.hlsearch = false
 	return "<esc>"
 end, { expr = true, silent = true })
